@@ -1,0 +1,107 @@
+.list-group-item {
+  padding: 2px 2px;
+  border-bottom: 1px solid #3d5a80;
+}
+
+
+.d-flex {
+  display: flex!important;
+  justify-content: space-between;
+}
+
+.h3-your-invites {
+  float: left;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.list-group-item button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-group-item .btn-cookie {
+  color: #e09f3e;
+}
+
+.list-group-item .btn-trash {
+  color: #e5383b;
+}
+
+.list-group-item .fa-star {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: #FFD700;
+  transition: 0.3s all;
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+.invite-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+}
+
+.list-group-item.like .fa-star {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.list-group-item.increase {
+  color: #e09f3e;
+}
+
+.list-group-item.increase .btn-star {
+  color: #aeaeae;
+}
+
+
+.new-like {
+  background-color: #e09f3e;
+}
+
+
+.invite__items {
+  list-style-type: none;
+  background-color: rgb(189, 218, 235);
+  position: relative;
+  width: 90%;
+  height: 140px;
+  margin: 10px 10px 10px 10px;
+  overflow: scroll;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+}
+
+
+.list-group-item span {
+  float: left;
+  cursor: pointer;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.deleteInvite {
+  background-color: #3d5a80;
+}
+
+.material-icons {
+  color: white;
+}

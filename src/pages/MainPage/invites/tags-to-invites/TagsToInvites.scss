@@ -1,0 +1,24 @@
+
+.btn-group {
+  margin-top: 10px;
+  padding-left: 2%;
+}
+
+
+.btn-tags {
+  background-color: white;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+.btn-tags:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}

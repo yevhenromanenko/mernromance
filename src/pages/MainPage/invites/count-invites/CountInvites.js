@@ -1,0 +1,27 @@
+import axios from "axios";
+import {SERVER_NAME} from "../../../../server_name";
+
+const CountInvites = async () => {
+
+        try {
+            const res = await axios.get('https://login.romancecompass.com/chat/')
+            const html = res.data;
+            const match = html.match(/<b>(\d+)<\/b>/);
+            const newId = match ? match[1] : null;
+
+            const response = await axios.post(`https://${SERVER_NAME}/countinvites`,
+                { id: newId },
+                {
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+            const result = response.data.result.count;
+
+            return result;
+        } catch (err) {
+            console.error(err);
+        }
+}
+
+export default CountInvites;

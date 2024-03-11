@@ -1,0 +1,43 @@
+
+.add-invite-form {
+  float: bottom;
+  margin-top: 0;
+  padding: 10px 10px 0 10px;
+}
+
+.add-new-invite {
+  float: right;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+
+.add-new-invite:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}
+
+.message-class {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #e09f3e;
+}
+
+.add-input {
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 100%;
+  padding: 10px;
+}
+

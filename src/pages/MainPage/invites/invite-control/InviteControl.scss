@@ -1,0 +1,107 @@
+
+.log{
+  list-style-type: none;
+  margin: auto 10px 10px 0;
+  background-color: rgb(189, 218, 235);
+  position: relative;
+  overflow: scroll;
+  width: 60%;
+  height: 200px;
+  padding: 5px;
+  border: solid 3px white;
+  border-image: initial;
+}
+
+.progress-bar .determinate {
+  background-color: #e09f3e;
+}
+
+.invite-control {
+  margin-left: 3%;
+}
+
+.btn-start-stop {
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+
+.btn-stop-invite {
+  margin-left: 5px;
+}
+
+.h2-invite-control {
+  font-size: 30px;
+  margin-left: 20%;
+  color: white;
+}
+
+.btn-start-invite {
+  background-color: white;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+.btn-start-invite:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}
+
+
+.btn-stop-invite {
+  background-color: white;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+.btn-stop-invite:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}
+
+.__row {
+  display: table;
+  background-color: #3d5a80;
+  width: 100%;
+  margin: 3px 0;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 1px #161414;
+}
+
+.ava_in_log {
+  width: 30px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.img_in_log {
+  width: 10%;
+  float: left;
+}
+
+.msg_in_log {
+  width: 85%;
+  float: right;
+  vertical-align: top;
+  padding: 2px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+

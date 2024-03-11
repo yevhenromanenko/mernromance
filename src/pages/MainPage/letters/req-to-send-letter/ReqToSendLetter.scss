@@ -1,0 +1,82 @@
+
+.email-form {
+  border-top: 1px solid #ffffff;
+  padding: 10px 0 10px 10px;
+  background-color: #3d5a80;
+}
+
+.label-class {
+  font-size: 16px;
+  color: white;
+}
+
+textarea::placeholder {
+  color: #3d5a80;
+}
+
+.subject-letter {
+  height: 50px;
+  font-size: 14px;
+  padding: 10px;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  background-color: rgb(189, 218, 235);
+}
+
+.content-letter {
+  height: 250px;
+  font-size: 14px;
+  padding: 10px;
+  width: 500px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  background-color: rgb(189, 218, 235);
+}
+
+.btn-save-letter {
+  background-color: white;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+.btn-save-letter:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}
+
+.log_spam_letter {
+  float: right;
+  margin: 60px 150px 10px 0;
+  background-color: rgb(189, 218, 235);
+  position: relative;
+  overflow: scroll;
+  width: 40%;
+  height: 370px;
+  padding: 5px;
+  border: solid 3px white;
+  border-image: initial;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

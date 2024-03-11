@@ -1,0 +1,96 @@
+
+.btn-open-users {
+  background-color: white;
+  padding: 0 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+
+.btn-open-users:hover {
+  background-color: #3d5a80;
+  color: white;
+  border-color: white;
+}
+
+.mass-form {
+  border-top: 1px solid #ffffff;
+  padding: 10px 0 10px 30px;
+  background-color: #3d5a80;
+}
+
+.add-user-input {
+  float: right;
+  max-width: 40%;
+  margin-right: 10px;
+}
+
+.add-inp {
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 60%;
+  height: 35px;
+  padding: 10px;
+}
+
+.add-new-user {
+  float: right;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 0 16px;
+  line-height: 36px;
+  height: 36px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #3d5a80;
+  border-radius: 8px;
+  border: 1px solid #3d5a80;
+  font-size: 14px;
+}
+
+.log_mass_letter {
+  float: right;
+  margin: 60px 150px 10px 0;
+  background-color: rgb(189, 218, 235);
+  position: relative;
+  overflow: scroll;
+  width: 40%;
+  height: 370px;
+  padding: 5px;
+  border: solid 3px white;
+  border-image: initial;
+}
+
+.img_in_log_letter {
+  width: 10%;
+  float: left;
+}
+
+.msg_in_log_letter {
+  width: 90%;
+  float: right;
+  vertical-align: top;
+  padding: 2px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.ava_in_log_letter {
+  width: 35px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+
